@@ -1,5 +1,11 @@
 package GB1_1_1.lesson1;
 
+import GB1_1_1.lesson1.obstacles.Road;
+import GB1_1_1.lesson1.obstacles.Wall;
+import GB1_1_1.lesson1.persons.Cat;
+import GB1_1_1.lesson1.persons.Men;
+import GB1_1_1.lesson1.persons.Robot;
+
 public class MainForLesson2 extends MainForLesson1 {
     public MainForLesson2() {
         System.out.println("Begin part 2: ");

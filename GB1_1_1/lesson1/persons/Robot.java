@@ -1,27 +1,27 @@
-package GB1_1_1.lesson1;
+package GB1_1_1.lesson1.persons;
 
-public class Men {
+public class Robot {
     String run;
     String jump;
-    public static int height;
-    public static int weight;
+    int height;
+    int weight;
 
-    public Men(int height, int weight) {
+    public Robot(String run, String jump) {
+        this.jump = run;
+        this.run = run;
+    }
+
+    public Robot(int height, int weight) {
         this.height = height;
         this.weight = weight;
     }
 
-    public Men(String run, String jump) {
-        this.run = run;
-        this.jump = jump;
+    public void run() {
+        System.out.println("Robot " + run);
     }
 
     public void jump() {
-        System.out.println("Men " + jump);
-    }
-
-    public void run() {
-        System.out.println("Men " + run);
+        System.out.println("Robot " + jump);
     }
 
     public int jump1() {
@@ -39,5 +39,4 @@ public class Men {
     public String jump2() {
         return jump;
     }
-
 }

@@ -1,4 +1,4 @@
-package GB1_1_1.lesson1;
+package GB1_1_1.lesson1.obstacles;
 
 public class Wall {
     private static int height;

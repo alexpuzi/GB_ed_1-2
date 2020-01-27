@@ -1,4 +1,4 @@
-package GB1_1_1.lesson1;
+package GB1_1_1.lesson1.obstacles;
 
 public class Road {
     private static int lenght;

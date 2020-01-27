@@ -1,5 +1,9 @@
 package GB1_1_1.lesson1;
 
+import GB1_1_1.lesson1.persons.Cat;
+import GB1_1_1.lesson1.persons.Men;
+import GB1_1_1.lesson1.persons.Robot;
+
 public class MainForLesson1 {
     public MainForLesson1() {
         System.out.println("Begin part 1: ");
